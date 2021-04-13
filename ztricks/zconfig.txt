@@ -1,0 +1,159 @@
+; this file defines configuration options used for the trick detection
+; ** trigger
+; 	a trigger is a square section where a person enters to activate.
+; 	using a number greater than 999 means it is optional. players can pass through it unless its specifically required.
+; 
+; 	trigger num coord1 coord2 name
+; 
+; ** trick
+; 	a trick is a combination of triggers to form a trick.
+; 	using a number greater than 999 sets the trick to require optional triggers.
+; 	otherwise players can pass through >=1000 without being penalized.
+; 
+; 	trick 1,4,12,2 points awp2!
+; 
+; a sample trigger (top)
+;  imagine you just spawned in ct spawn looking at deagle.
+;   your left is X-, right is X+
+;   in front of you is Y+, behind is Y-
+;   jumping raises your Z+, crouching lowers Z-
+;   coordinates are written as X, Y, Z
+; 
+;  go into noclip and set cl_showpos 1. then you will be able to see the coordinates wherever you fly to
+;  now goto the left,forward,top of top and get the coordinates: -1700, 200, 7500
+;  now goto the right,backward,bottom right of top and get the coordinates: -2100, -200, 7200
+;  using that, you can create a trigger like this:
+;   trigger	1	-1700,200,7500	-2100,-200,7200		top
+; 
+; a sample trick
+;  now that we have a trigger (1) we can make a trick out of it
+;   trick	1	1000	you made it to top!
+; 
+;  if another trigger was named main(2) and pool(3) then you could take it further by doing
+;   trick	2,1	2000	you just went from main to top!
+; 
+;  or another using pool(3). if you have spawns as triggers, you can congratulate them on jumping from to to main because
+;  they would have went through spawn(5) which would make their path 3,1,5,2 instead of 3,1,2
+;   trick	3,1,2	5	you went from pool -> top -> main!
+;
+;
+; some simple rules are:
+;  x1 should be in front of x2
+;  y1 should be left of y2
+;  z1 should be higher than z2
+;
+
+# changelog:
+#  20090302 raised deagle sides 4000->4100, lowered 3500->3000
+#           move behind main back -950 to -1050
+#  20090306 alien renumbered for unknown reasons
+#  20090307 sign requires main now, cleaned up tricks
+
+
+##              number  coords1                 coords2                 name
+trigger		1	-1700,200,7500		-2100,-200,7200		top
+trigger		2001	1000,250,5000		300,-250,4500		main ramp
+trigger		3000	4700,500,4000		4800,-500,3500		through deagle
+trigger		4	-5500,1000,-1800	-7500,-1000,-1500	pool
+trigger		5	-500,-8800,-1600	100,-8300,-1400		awp box #1
+trigger		6	-500,8800,-1600		100,8300,-1400		awp box #2
+trigger		7	-1050,250,6000		-1800,0,5900		counter-terrorist spawn
+trigger		8	-1050,0,6000		-1800,-250,5900		terrorist spawn
+trigger		9	550,250,6300		615,-250,6100		sign
+trigger		8000	1000,-4800,400		-1500,-4300,1350	awp ramp left
+trigger		8001	1000,4800,400		-1500,4300,1350		awp ramp right
+trigger		12	-2000,350,5700		-1050,-350,5000		behind main
+trigger		1010	4500,-800,4100		4000,-500,2500		deagle side 1
+trigger		1010	4500,800,4100		4000,500,2500		deagle side 2
+trigger		6000	6450,-1885,3390		5884,-2876,3069		under 3rd
+trigger		6001	6480,2852,3539		5917,1859,3054		under 3rd
+trigger		16	-3256,-2505,177		-4175,-2712,-512	last 3rd left
+trigger		17	-3574,2875,91		-4171,2707,-521		last 3rd right
+trigger		1001	-4411,-1757,-576	-5201,-1789,-1148	last left
+trigger		1002	-4614,2132,-379		-4936,1307,-1179	last right
+trigger		1020	4700,550,4650		3700,-550,4100		pyramid
+trigger		1025	-2300,300,7400		-2200,-300,7100		behind top
+trigger		18	2450,4770,2043		2018,4360,1932		awp water right
+trigger		21	2468,-4343,2017		2015,-4760,1920		awp water left
+trigger		19	5718,4763,2649		4527,4224,2505		under 6th right
+trigger		29	4981,-4287,2818		4617,-4701,2560		under 6th left
+trigger		20	-275,291,5366		-830,-252,4890		main portion #2
+trigger		2000	2393,297,6406		60,-311,4681		over main
+trigger		31	4573,4834,3162		3530,4289,2537		deag 6 left
+trigger		32	4510,-4263,3166		3527,-4827,2588		deag 6 right
+trigger		1023	5060,750,4128		4821,-606,3435		deag1 slice
+trigger		6002	5400,971,3438		4225,-974,3063		under platform
+trigger		6003	6400,4024,3317		5902,2845,2906		under 4th
+trick		3000,1010,3000													20		deagle wrap 1x
+trick		3000,1010,3000,1010,3000											150		deagle wrap 2x
+trick		3000,1010,3000,1010,3000,1010,3000										300		deagle wrap 3x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000									400		deagle wrap 4x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000								500		deagle wrap 5x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000						600		deagle wrap 6x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000					700		deagle wrap 7x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000				800		deagle wrap 8x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000			900		deagle wrap 9x
+trick		3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000,1010,3000	1000		deagle wrap 10x
+
+
+##              triggers                        		points          name
+trick		6000,6002,8001					400		under 3rd to opposit awp
+trick		6001,6002,8000					400		under 3rd to opposit awp
+trick		6002,8001					300		under 2nd to awp
+trick		6002,8000					300		under 2nd to awp
+trick		6003,6002,8000					500		under 4th to opposit awp
+trick		6004,6002,8001					500		under 4th to opposit awp
+trick		3000,1010,2001					500		t1000
+trick		3000,2001,1010,3000,2001			500		double t1000
+trick		7,8						50		spawn hop ct->t
+trick		8,7						50		spawn hop t->ct
+trick		2001,9						10		sign
+trick		8000,8001					25		awp2awp
+trick		8001,8000					25		awp2awp
+trick		8000,8001,8000					100		awp3
+trick		8001,8000,8001					100		awp3
+trick		8000,11,8000,8001				400		awp4
+trick		8001,8000,11,8000				400		awp4
+trick		2001,12,2001					50		main wrap
+trick		1,12,4						75		razr
+trick		8000,3000					30		awp to deagle
+trick		8001,3000					30		awp to deagle
+trick		1001,4,1001,5					600		tobe
+trick		1002,4,1002,5					600		tobe
+trick		1001,4,1002,5					600		tobe
+trick		1002,4,1001,5					600		tobe
+trick		1001,4,1001,6					600		tobe
+trick		1002,4,1002,6					600		tobe
+trick		1001,4,1002,6					600		tobe
+trick		1002,4,1001,6					600		tobe
+;trick		1,1025,4					10		j-hop
+;nc waave taken out until last 1-4 are added
+;trick		20,16,4						50		nc waave
+;trick		20,17,4						50		nc waave
+trick		3000,18,6					30		through deag to chrome
+trick		3000,21,5					30		through deag to chrome
+trick		19,8001						40		matta
+trick		29,8000						40		matta
+trick		1010,1020,2001					60		sonic t1000
+trick		21,5						15		chrome
+trick		18,6						15		chrome
+trick		31,3000,32,3000					50		the ocho
+trick		32,3000,31,3000					50		the ocho
+trick		8000,2000,8001					50		awp 2 over main
+trick		8001,2000,8000					50		awp 2 over main
+trick		8000,2001					10		awp to main
+trick		8001,2001					10		awp to main
+trick		1023,3000,1010,1023,3000,4			100		tsurugi
+trick		3000,1010,2000					100		t1000 over main
+trick		2001,1010,3000,1023				10		dog gap
+trick		2001,1010,3000,1023,2001,1010,3000		200		double dog
+trick		6004,1023,3000,1010,8001			50		4th through deagle to awp
+trick		6003,1023,3000,1010,8000			50		4th through deagle to awp
+trick		6001,1023,3000,4				50		3rd through deagle to pool
+trick		6000,1023,3000,4				50		3rd through deagle to pool
+trick		6002,4						100		under 2nd to pool
+
+
+
+
+
