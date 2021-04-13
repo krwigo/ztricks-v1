@@ -1,0 +1,438 @@
+[last (#1)]
+fCoord2_z = -1100
+fCoord2_x = -5000
+fCoord2_y = -2000
+bSymetrical = 1
+bEnabled = 1
+iId = 55
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -1400
+fCoord1_x = -4700
+fCoord1_z = -550
+
+[under main]
+fCoord2_z = -1800
+fCoord2_x = -5400
+fCoord2_y = -200
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 3000
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 200
+iId = 20
+fCoord1_z = 4370
+
+[3rd deagle]
+bSymetrical = 1
+bEnabled = 1
+iId = 112
+sShape = sphere
+fRadius = 350
+fCoord1 = 1
+fCoord1_y = -2377
+fCoord1_x = 6184
+fCoord1_z = 3289
+
+[deagle]
+fCoord2_z = 3550
+fCoord2_x = 5440
+fCoord2_y = -297
+bSymetrical = 1
+bEnabled = 1
+iId = 113
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -544
+fCoord1_x = 4770
+fCoord1_z = 4050
+
+[last (#5)]
+fCoord2_z = 155
+fCoord2_x = -2690
+fCoord2_y = -4055
+bSymetrical = 1
+bEnabled = 1
+iId = 58
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -3310
+fCoord1_x = -2750
+fCoord1_z = 735
+
+[sign]
+fCoord2_z = 6100
+fCoord2_x = 615
+fCoord2_y = -250
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 550
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 250
+iId = 9
+fCoord1_z = 6300
+
+[awp box]
+fCoord2_z = -1400
+fCoord2_x = 100
+fCoord2_y = -8300
+bSymetrical = 1
+bEnabled = 1
+iId = 51
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -8800
+fCoord1_x = -500
+fCoord1_z = -1600
+
+[pyramid]
+fCoord2_z = 4100
+fCoord2_x = 3700
+fCoord2_y = -550
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 4700
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 550
+iId = 1020
+fCoord1_z = 4650
+
+[matta]
+fCoord2_z = 2143
+fCoord2_x = 5123
+fCoord2_y = -3597
+bSymetrical = 1
+bEnabled = 1
+iId = 44
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -4762
+fCoord1_x = 4461
+fCoord1_z = 2732
+
+[deagle part2]
+bSymetrical = 1
+bEnabled = 1
+iId = 113
+sShape = sphere
+fRadius = 200
+fCoord1 = 1
+fCoord1_y = -496
+fCoord1_x = 5278
+fCoord1_z = 3629
+
+[over main]
+bSymetrical = 0
+bEnabled = 1
+iId = 21
+sShape = sphere
+fRadius = 150
+fCoord1 = 1
+fCoord1_y = 0
+fCoord1_x = 1915
+fCoord1_z = 4924
+
+[2nd deagle]
+bSymetrical = 1
+bEnabled = 1
+iId = 111
+sShape = sphere
+fRadius = 350
+fCoord1 = 1
+fCoord1_y = -1507
+fCoord1_x = 5958
+fCoord1_z = 3527
+
+[top]
+fCoord2_z = 7108
+fCoord2_x = -1717
+fCoord2_y = 196
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -2011
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -178
+iId = 1
+fCoord1_z = 7209
+
+[deagle teleporter (not 2 save)]
+fCoord2_z = 3497
+fCoord2_x = 4136
+fCoord2_y = -72
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 4264
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 66
+iId = 88
+fCoord1_z = 3585
+
+[main ramp]
+fCoord2_z = 4500
+fCoord2_x = 300
+fCoord2_y = -250
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 1000
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 250
+iId = 2
+fCoord1_z = 5000
+
+[last (#3)]
+fCoord2_z = -550
+fCoord2_x = -4100
+fCoord2_y = -2800
+bSymetrical = 1
+bEnabled = 1
+iId = 56
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -2200
+fCoord1_x = -3800
+fCoord1_z = 0
+
+[pool]
+fCoord2_z = -1500
+fCoord2_x = -7500
+fCoord2_y = -1000
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -5500
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+bEndCombo = 1
+fCoord1_y = 1000
+iId = 4
+fCoord1_z = -1800
+
+[behind top]
+fCoord2_z = 7100
+fCoord2_x = -2200
+fCoord2_y = -300
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -2300
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 300
+iId = 1025
+fCoord1_z = 7400
+
+[awp water]
+fCoord2_z = 1880
+fCoord2_x = 2000
+fCoord2_y = -4775
+bSymetrical = 1
+bEnabled = 1
+iId = 57
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -4300
+fCoord1_x = 2500
+fCoord1_z = 1950
+
+[terrorist spawn]
+fCoord2_z = 5880
+fCoord2_x = -1800
+fCoord2_y = -250
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -1050
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 0
+iId = 8
+fCoord1_z = 6000
+
+[awp ramp]
+fCoord2_z = 1350
+fCoord2_x = -1500
+fCoord2_y = -4300
+bSymetrical = 1
+bEnabled = 1
+iId = 52
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -4800
+fCoord1_x = 1000
+fCoord1_z = 400
+
+[deagle 4]
+fCoord2_z = 2985
+fCoord2_x = 5903
+fCoord2_y = -3946
+bSymetrical = 1
+bEnabled = 1
+iId = 62
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -3323
+fCoord1_x = 5682
+fCoord1_z = 3591
+
+[deagle 5]
+fCoord2_z = 2775
+fCoord2_x = 4800
+fCoord2_y = -4750
+bSymetrical = 1
+bEnabled = 1
+iId = 61
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -3960
+fCoord1_x = 5080
+fCoord1_z = 3322
+
+[deagle 6]
+fCoord2_z = 2630
+fCoord2_x = 3530
+fCoord2_y = -4810
+bSymetrical = 1
+bEnabled = 1
+iId = 60
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -4270
+fCoord1_x = 4500
+fCoord1_z = 3130
+
+[behind main]
+fCoord2_z = 5000
+fCoord2_x = -1050
+fCoord2_y = -350
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -2000
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 350
+iId = 12
+fCoord1_z = 5700
+
+[deagside]
+fCoord2_z = 3525
+fCoord2_x = 3231
+fCoord2_y = -883
+bSymetrical = 1
+bEnabled = 1
+iId = 19
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -621
+fCoord1_x = 4433
+fCoord1_z = 3973
+
+[over main part2]
+bSymetrical = 0
+bEnabled = 1
+iId = 21
+sShape = sphere
+ffRadius = 1450
+fCoord1 = 1
+fCoord1_y = -67
+fCoord1_x = 1130
+fCoord1_z = 6103
+
+[under deagle]
+fCoord2_z = 2736
+fCoord2_x = 5138
+fCoord2_y = 1143
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 5418
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -949
+iId = 99
+fCoord1_z = 3374
+
+[counter-terrorist spawn]
+fCoord2_z = 5880
+fCoord2_x = -1800
+fCoord2_y = 0
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = -1050
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 250
+iId = 7
+fCoord1_z = 6000
+
+[main ramp part3]
+fCoord2_z = 4662
+fCoord2_x = 588
+fCoord2_y = 219
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 2074
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = -296
+iId = 2
+fCoord1_z = 4462
+
+[main ramp part2]
+fCoord2_z = 5450
+fCoord2_x = -675
+fCoord2_y = -250
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 300
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 250
+iId = 2
+fCoord1_z = 5000
+
+[through deagle]
+fCoord2_z = 3500
+fCoord2_x = 4800
+fCoord2_y = -500
+bSymetrical = 0
+bEnabled = 1
+fCoord1_x = 4700
+sShape = box
+fCoord2 = 1
+fCoord1 = 1
+fCoord1_y = 500
+iId = 3
+fCoord1_z = 4000
+
+[awp to awp over main]
+bEndCombo = 0
+bEnabled = 1
+

@@ -1,0 +1,262 @@
+[awp to main]
+bEnabled=1
+iId=1033
+iPoints=60
+lPass=None
+lPath=52,2
+
+[3rd under deagle to opposite awp]
+bEnabled=1
+iId=1026
+iPoints=350
+lPass=20
+lPath=112,99,52
+
+[dog gap]
+bEnabled=1
+iId=1022
+iPoints=75
+lPass=113
+lPath=2,19,3
+
+[t1000]
+bEnabled=1
+iId=1000
+iPoints=600
+lPass=113
+lPath=3,19,2
+
+[sign]
+bEnabled=1
+iId=1002
+iPoints=10
+lPass=21
+lPath=2,9
+
+[matta]
+bEnabled=1
+iId=1032
+iPoints=120
+lPass=None
+lPath=60,44,52
+
+[nc waave]
+bEnabled=1
+iId=1012
+iPoints=30
+lPass=55
+lPath=8,2,56,4
+
+[sonic t1000]
+bEnabled=1
+iId=1015
+iPoints=90
+lPass=20
+lPath=113,3,1020,2
+
+[razr to 5th]
+bEnabled=1
+iId=1020
+iPoints=20
+lPass=20,55,56
+lPath=1,12,58,4
+
+[chrome]
+bEnabled=1
+iId=1016
+iPoints=15
+lPass=None
+lPath=57,51
+
+[3rd through deagle to pool]
+bEnabled=1
+iId=1028
+iPoints=500
+lPass=20,19
+lPath=112,3,4
+
+[tsunami]
+bEnabled=1
+iId=1014
+iPoints=1000
+lPass=None
+lPath=113,3,19,3,19,52
+
+[tobe go home]
+bEnabled=1
+iId=1010
+iPoints=600
+lPass=52,20
+lPath=3,55,4,55,51
+
+[tobe from main]
+bEnabled=1
+iId=1023
+iPoints=600
+lPass=20,52
+lPath=2,55,4,55,51
+
+[deagle wrap]
+bEnabled=1
+iId=1007
+iPoints=60
+lPass=None
+lPath=3,19,113
+
+[4th through deagle to awp]
+bEnabled=1
+iId=1029
+iPoints=500
+lPass=20,19
+lPath=62,3,52
+
+[main wrap]
+bEnabled=1
+iId=1005
+iPoints=50
+lPass=None
+lPath=2,12,2
+
+[awp hop]
+bEnabled=1
+iId=1035
+iPoints=100
+lPass=21
+lPath=51,2
+
+[awpx3 over main]
+bEnabled=1
+iId=1004
+iPoints=80
+lPass=None
+lPath=52,21,52,52
+
+[None]
+bEnabled=None
+iId=None
+lPath=None
+
+[spawn hop t->ct]
+bEnabled=1
+iId=1111
+lPass=None
+lPath=7,8
+
+[2nd under deagle to awp]
+bEnabled=1
+iId=1025
+iPoints=250
+lPass=20
+lPath=111,99,52
+
+[deagle to chrome]
+bEnabled=1
+iId=1017
+iPoints=30
+lPass=19
+lPath=113,3,57,51
+
+[3rd through deagle to awp]
+bEnabled=1
+iId=1027
+iPoints=300
+lPass=20,19
+lPath=112,3,52
+
+[awp]
+bEnabled=1
+iId=1003
+iPoints=25
+lPass=None
+lPath=52,20,52
+
+[deagle to matta]
+bEnabled=1
+iId=1034
+iPoints=50
+lPass=19
+lPath=113,60,44,52
+
+[awp to dog]
+bEnabled=1
+iId=1008
+iPoints=70
+lPass=19
+lPath=52,3
+
+[awp to awp over main]
+bEnabled=1
+iId=1004
+iPoints=80
+lPass=None
+lPath=52,21,52
+
+[razr]
+bEnabled=1
+iId=1006
+iPoints=15
+lPass=20,12
+lPath=1,4
+
+[tsurugi]
+bEnabled=1
+iId=1013
+iPoints=200
+lPass=20
+lPath=113,3,19,113,3,4
+
+[t1000 over main]
+bEnabled=1
+iId=1001
+iPoints=900
+lPass=19
+lPath=113,3,21
+
+[razr to 3rd]
+bEnabled=1
+iId=1019
+iPoints=20
+lPass=20,55
+lPath=1,12,56,4
+
+[razr to last]
+bEnabled=1
+iId=1018
+iPoints=20
+lPass=20,12
+lPath=1,55,4
+
+[4th under deagle to opposite awp]
+bEnabled=1
+iId=1030
+iPoints=700
+lPass=20
+lPath=62,99,52
+
+[2nd through deagle to awp]
+bEnabled=1
+iId=1024
+iPoints=200
+lPass=20,19
+lPath=111,3,52
+
+[2nd under deagle to pool]
+bEnabled=1
+iId=1031
+iPoints=600
+lPass=20
+lPath=111,99,4
+
+[spawn hop ct->t]
+bEnabled=1
+iId=1111
+lPass=None
+lPath=8,7
+
+[the ocho]
+bEnabled=1
+iId=1021
+iPoints=190
+lPass=None
+lPath=60,3,60,3
+
