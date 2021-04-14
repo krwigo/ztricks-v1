@@ -4,7 +4,7 @@
 An addon for [Counter-Strike: Source](https://store.steampowered.com/app/240/CounterStrike_Source/) using [EventScripts](https://developer.valvesoftware.com/wiki/EventScripts) to detect **tricks** when players have touched enough points around the surf map without dying.
 
 ## Branches
-[All branches](https://github.com/krwigo/ztricks-v1/branches).
+[All branches](https://github.com/krwigo/ztricks-v1/branches/all).
 
 ## History
 I switched from [|тطω|MaکŦergںŋ](https://steamcommunity.com/profiles/76561197978487378/)'s fy_iceworld server to [Pharmacist](https://www.youtube.com/watch?v=6b5bMCraWBA)'s surf_skyworld server in 2009. Shortly after buying permanent admin for $50, I got ftp access and started looking at addons.
