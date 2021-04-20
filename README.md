@@ -11,7 +11,7 @@ I switched from [|тطω|MaکŦergںŋ](https://steamcommunity.com/profiles/7656
 
 All the addons were written in ES Tools. Essentially they were scripts being executed on the server console. Variables and functions were practically impossible. Luckily though, a Python 2.x release had already been started. Python addons had a lot of bonuses such as shared memory. You could share data between addons through the **es** import.
 
-Regions of the map couldn't be accurately represented with cubes and spheres alone. I spent endless nights calculating triangles on paper using coordinates found in the map [dxf](https://en.wikipedia.org/wiki/AutoCAD_DXF) exports. Research continued in a cold basement cement basement after being evicted.
+Regions of the map couldn't be accurately represented with cubes and spheres alone. I spent endless nights calculating triangles on paper using coordinates found in the map [dxf](https://en.wikipedia.org/wiki/AutoCAD_DXF) exports. Research continued in a cold cement basement after being evicted.
 
 These files were recovered from a hard drive used at the time.
 
